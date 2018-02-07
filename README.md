@@ -1,4 +1,4 @@
-#Framework code from 
+#Framework code from
 Fork Darknet framework for YOLO net.
 
 #Darknet#
@@ -17,3 +17,6 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 
 3.launch video detect
 ./darknet detector demo cfg/coco.data cfg/yolo.cfg yolo.weights <video file>
+
+4.launch image dir detect
+./darknet dirdetect /coco.data cfg/yolo.cfg yolo.weights <image dir>
